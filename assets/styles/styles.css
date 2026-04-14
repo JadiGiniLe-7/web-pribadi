@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+<<<<<<< HEAD
 header {
     display: inline;
 }
@@ -13,10 +14,17 @@ header {
 #navbar {
     position: sticky;
     top: 12px;
+=======
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+>>>>>>> e86d689a18049edab3fae12528af4c1f8c2b6ee7
     background-color: white;
     border: 1px solid white;
     border-radius: 14px;
     margin: 12px;
+<<<<<<< HEAD
     display: flex;
     align-items: center;
     justify-content: left;
@@ -32,6 +40,16 @@ header {
     color: black;
     text-align: center;
     padding: 20px 20px;
+=======
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+>>>>>>> e86d689a18049edab3fae12528af4c1f8c2b6ee7
     text-decoration: none;
     transition: 0.2s;
 }
@@ -45,14 +63,22 @@ header {
     padding: 60px;
     text-align: center;
     color: #f2f2f2;
+<<<<<<< HEAD
     position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+=======
+    display: inline;
+>>>>>>> e86d689a18049edab3fae12528af4c1f8c2b6ee7
 }
 
 .active {
     font-weight: bold;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e86d689a18049edab3fae12528af4c1f8c2b6ee7

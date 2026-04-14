@@ -6,22 +6,32 @@ body {
     padding: 0;
 }
 
+header {
+    display: inline;
+}
+
 #navbar {
     position: sticky;
-    top: 0;
-    overflow: hidden;
+    top: 12px;
     background-color: white;
     border: 1px solid white;
     border-radius: 14px;
     margin: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#navbar img {
+    height: 40px;
+    margin: 12px;
 }
 
 #navbar a {
-    float: left;
     display: block;
     color: black;
     text-align: center;
-    padding: 20px;
+    padding: 20px 20px;
     text-decoration: none;
     transition: 0.2s;
 }
@@ -35,7 +45,12 @@ body {
     padding: 60px;
     text-align: center;
     color: #f2f2f2;
-    display: inline;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .active {

@@ -1,0 +1,43 @@
+body {
+    background-color: #333;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 14px;
+    margin: 12px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+}
+
+#jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    text-align: center;
+    color: #f2f2f2;
+    display: inline;
+}
+
+.active {
+    font-weight: bold;
+}
